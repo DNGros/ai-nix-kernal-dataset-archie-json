@@ -8,3 +8,5 @@ For more context about the dataset see https://apps.cs.utexas.edu/apps/tech-repo
   year={2019}
 }
 ```
+
+Note this repo is missing nicely pulled out eval code which parses the examples and compares the AST as was done in AInix. That is still a todo (partly because I want to completely rewrite the parsing code)... Let me know if it would be useful to you and I can revisit it in a quicker solution.
