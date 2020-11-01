@@ -1,0 +1,3352 @@
+{
+    "0": {
+        "x": [
+            {
+                "x_text": "recursively find all files and dirs named [-[ENGWORD]-].txt",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print files and directories named \"[-[ENGWORD]-].txt\" recursive",
+                "x_weight": 1
+            },
+            {
+                "x_text": "recursively search for files and dirs named [-[ENGWORD]-].txt",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -name \"[-[ENGWORD]-].txt\"",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "1": {
+        "x": [
+            {
+                "x_text": "recursively print all directories here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "what are all the directories anywhere on this path?",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -type d",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "2": {
+        "x": [
+            {
+                "x_text": "recursively find all files that end with \"[-[ENGWORD]-]\"",
+                "x_weight": 1
+            },
+            {
+                "x_text": "Starting here, find all files which end with \"[-[ENGWORD]-]\"",
+                "x_weight": 1
+            },
+            {
+                "x_text": "find files that end with \"[-[ENGWORD]-]\" starting here",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -name \"*[-[ENGWORD]-]\" -type f",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "3": {
+        "x": [
+            {
+                "x_text": "recursively find all directories that end with \"[-[ENGWORD]-]\" starting here",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -name \"*[-[ENGWORD]-]\" -type d",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "4": {
+        "x": [
+            {
+                "x_text": "recursively find all python files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "find all python files here and in all subdirs",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -name \"*.py\" -type f",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "5": {
+        "x": [
+            {
+                "x_text": "recursively find all javascript files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "find all javascript files starting here",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -name \"*.js\" -type f",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "6": {
+        "x": [
+            {
+                "x_text": "recursively find all [-[EXTENSION]-] files starting here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "recursively find all [-[EXTENSION]-] files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "find all [-[EXTENSION]-] files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "find all \"[-[EXTENSION]-]\" files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "recursively find all files with a \"[-[EXTENSION]-]\" extension",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -name \"*.[-[EXTENSION]-]\" -type f",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "7": {
+        "x": [
+            {
+                "x_text": "recursively find all .[-[EXTENSION]-] files starting here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "recursively find all \".[-[EXTENSION]-]\" files starting here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "find all .[-[EXTENSION]-] files",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -name \"*.[-[EXTENSION]-]\" -type f",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "8": {
+        "x": [
+            {
+                "x_text": "find all hidden files starting here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "recursively list all hidden files here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "recursively find all hidden files",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -name \".*\" -type f",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "9": {
+        "x": [
+            {
+                "x_text": "find all hidden files starting in [-[DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find [-[DIRNAME]-] -name \".*\" -type f",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "10": {
+        "x": [
+            {
+                "x_text": "find all hidden files starting in my tmp directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find \\tmp -name \".*\" -type f",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "11": {
+        "x": [
+            {
+                "x_text": "find all files starting here which belong to [-[USERNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "recursively find files that belong to [-[USERNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "what files here belong to [-[USERNAME]-]?",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -type f -user [-[USERNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "12": {
+        "x": [
+            {
+                "x_text": "search for all files in the whole system that belong to [-[USERNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "starting from root find all files that belong to [-[USERNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find / -type f -user [-[USERNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "13": {
+        "x": [
+            {
+                "x_text": "find all files here which belong to group [-[GROUPNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "look for files with group name [-[GROUPNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -type f -user [-[GROUPNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "14": {
+        "x": [
+            {
+                "x_text": "how many [-[EXTENSION]-] files are here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "count the number of [-[EXTENSION]-] files are here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many .[-[EXTENSION]-] files are here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many *.[-[EXTENSION]-] files are in this dir",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -name \"*.[-[EXTENSION]-]\" -type f -maxdepth 1 | wc -l",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "15": {
+        "x": [
+            {
+                "x_text": "how many files are in this directory nonrecursive",
+                "x_weight": 1
+            },
+            {
+                "x_text": "get a list of files here and count the number lines returned.",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many files are here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "count number of files here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many files in this directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -type f -maxdepth 1 | wc -l",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "16": {
+        "x": [
+            {
+                "x_text": "how many files are in this directory and all subdirectories",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many files are here recursive",
+                "x_weight": 1
+            },
+            {
+                "x_text": "recursively count number files here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many files in this folder or all subfolders",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -type f | wc -l",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "17": {
+        "x": [
+            {
+                "x_text": "how many empty files are here nonrecursive",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -type f -empty -maxdepth 1 | wc -l",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "18": {
+        "x": [
+            {
+                "x_text": "how many empty files are here recursive",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "find . -type f -empty | wc -l",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "19": {
+        "x": [
+            {
+                "x_text": "what file am I in",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print working directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "where am I",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print current dir",
+                "x_weight": 1
+            },
+            {
+                "x_text": "get my current directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print working dir",
+                "x_weight": 1
+            },
+            {
+                "x_text": "get current path",
+                "x_weight": 1
+            },
+            {
+                "x_text": "what directory am I in",
+                "x_weight": 1
+            },
+            {
+                "x_text": "prnt working dir",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print out what directory am in",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print current working directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "get my cur path",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print cur dir",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "pwd",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "20": {
+        "x": [
+            {
+                "x_text": "list",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files with no extra info",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "21": {
+        "x": [
+            {
+                "x_text": "print all files and directories here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list directory contents",
+                "x_weight": 1
+            },
+            {
+                "x_text": "what files are here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list all files here please",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list all files and directories here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list all files and dirs in this dir",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print the contents of this directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "display a list of files and or directories only",
+                "x_weight": 1
+            },
+            {
+                "x_text": "what files and dirs are here?",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list all files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list all files here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list my files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list what is here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files and dirs here",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "ls -l",
+                "y_preference": 0.5
+            },
+            {
+                "y_text": "ls -lS",
+                "y_preference": 0.25
+            },
+            {
+                "y_text": "ls -S",
+                "y_preference": 0.125
+            },
+            {
+                "y_text": "ls -t",
+                "y_preference": 0.0625
+            },
+            {
+                "y_text": "ls -lt",
+                "y_preference": 0.03125
+            }
+        ]
+    },
+    "22": {
+        "x": [
+            {
+                "x_text": "ls sorted by file size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls biggest files first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files here biggest files first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files largest files first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls in order of decreasing size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls order with decreasing file size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list filese here sorted by files size decending",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls sorted smallest to biggest",
+                "x_weight": 1
+            },
+            {
+                "x_text": "display files in order of size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "display files biggest files first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files sort by the largest file size first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls sort files with size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list my files long format sorted by size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "show my files sorted by size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files big to small",
+                "x_weight": 1
+            },
+            {
+                "x_text": "show files here largest first",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lS",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "ls -S",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "23": {
+        "x": [
+            {
+                "x_text": "ls -l sorted by size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "run ls -l sorted by size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -l largest files first",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lS",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "24": {
+        "x": [
+            {
+                "x_text": "list files with smallest first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "display files smallest to largest",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files small to big",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files smallest files first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files here by files size ascending",
+                "x_weight": 1
+            },
+            {
+                "x_text": "show files. Sort by file size small first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "display files in order of reverse size",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lSr",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "ls -S -r",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "25": {
+        "x": [
+            {
+                "x_text": "ls -l smallest files first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -l sorted by size reversed",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files long format",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls smallest files at top",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lSr",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "26": {
+        "x": [
+            {
+                "x_text": "list all files with stuff like file size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list all files in long format",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls with date changed and size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "show info about files here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls with long format",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls in long format",
+                "x_weight": 1
+            },
+            {
+                "x_text": "what files are here with file information",
+                "x_weight": 1
+            },
+            {
+                "x_text": "display a long list of the content of current directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "show long listing information about each file/directory here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "display total information about Files/Directories",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -l",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "27": {
+        "x": [
+            {
+                "x_text": "list all files with dot files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list all files with hidden files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list all including dot files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls with dot files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls with hidden files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list with dot files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list all files including hidden file starting with '.'",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -a",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "28": {
+        "x": [
+            {
+                "x_text": "list files here sorted by modified date",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls sorted newest to oldest",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lt",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "ls -t",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "29": {
+        "x": [
+            {
+                "x_text": "ls -l sorted by change date",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -l sorted by modification date",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -l sorted by mod data",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -l sort by mod date",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -l sort the list by modification time with the newest first",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lt",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "30": {
+        "x": [
+            {
+                "x_text": "list inode numbers of files here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "find inode numbers of files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print inode numbers of files here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls with inode numbers",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list file's inode index number",
+                "x_weight": 1
+            },
+            {
+                "x_text": "check inode number of files and directories",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -i",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "31": {
+        "x": [
+            {
+                "x_text": "ls recursively down all dirs",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files recursively exploring directories",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list recursively directory tree",
+                "x_weight": 1
+            },
+            {
+                "x_text": "show all files recursively",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -R",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "32": {
+        "x": [
+            {
+                "x_text": "ls sort by extension name",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls group extension together",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files grouped by file extension",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls sort list by extension",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -X",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "33": {
+        "x": [
+            {
+                "x_text": "ls sort by time & date",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files sort by date/time",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls order files based on last modified time",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list files with newest file first",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -t",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "34": {
+        "x": [
+            {
+                "x_text": "ls one file per line",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls single entry per line",
+                "x_weight": 1
+            },
+            {
+                "x_text": "display files one file per line",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -1",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "35": {
+        "x": [
+            {
+                "x_text": "ls in reverse alphabetical order",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list in reverse order",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls in reverse order",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -r",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "36": {
+        "x": [
+            {
+                "x_text": "list long format with readable file size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -l with human readable file sizes",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -l human readable",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -l showing gigabytes and mb kb",
+                "x_weight": 1
+            },
+            {
+                "x_text": "display files with file size in human readable form",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lh",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "37": {
+        "x": [
+            {
+                "x_text": "list all subdirectories",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls *",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "38": {
+        "x": [
+            {
+                "x_text": "list files in home dir",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list my home directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls ~",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "39": {
+        "x": [
+            {
+                "x_text": "ls -a but dont include . or ..",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list hidden files but dont include . or ..",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -A",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "40": {
+        "x": [
+            {
+                "x_text": "list all files in ..",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list parent directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls ..",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "41": {
+        "x": [
+            {
+                "x_text": "ls sorted oldest to newest",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls sorted oldest to newest modified date",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls with latest modified file or directory date as last",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -ltr",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "42": {
+        "x": [
+            {
+                "x_text": "list only text files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list all text files here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "what text files are here?",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls *.txt",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "43": {
+        "x": [
+            {
+                "x_text": "ls but only list directories",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list directories only",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list directory entries only",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -d */",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "44": {
+        "x": [
+            {
+                "x_text": "list root directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls /",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "45": {
+        "x": [
+            {
+                "x_text": "list files with file size",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -s",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "ls -ls",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "46": {
+        "x": [
+            {
+                "x_text": "ls -a with inode index number",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -ai",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "47": {
+        "x": [
+            {
+                "x_text": "list long format including hidden files",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls in long format with dot files",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -la",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "48": {
+        "x": [
+            {
+                "x_text": "ls -r with i-node numbers",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -ir",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "49": {
+        "x": [
+            {
+                "x_text": "ls -l sort by file extension",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lX",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "50": {
+        "x": [
+            {
+                "x_text": "list files sort by extension with hidden files",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -Xa",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "51": {
+        "x": [
+            {
+                "x_text": "list files here ordering by last mod time with oldest files first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls order files based on last modified time in dec-ending order",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lrt",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "ls -rt",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "52": {
+        "x": [
+            {
+                "x_text": "ls -l sorted by last modified time oldest first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -lt in reverse",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -lr by modified date",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lrt",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "ls -rt",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "53": {
+        "x": [
+            {
+                "x_text": "what is the oldest file or directory (by last modified time) in current directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "what is the oldest file here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "what file here was modified the longest ago?",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -rt -1 | head -n 1",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "54": {
+        "x": [
+            {
+                "x_text": "what file or directory here was last modified most recently",
+                "x_weight": 1
+            },
+            {
+                "x_text": "most recently modified file or directory here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "what is the file or directory here has the most recent last modified time",
+                "x_weight": 1
+            },
+            {
+                "x_text": "what is the most recently changed file here",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -t -1 | head -n 1",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "55": {
+        "x": [
+            {
+                "x_text": "list all jpg files here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls all jpg files",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls *.jpg",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "56": {
+        "x": [
+            {
+                "x_text": "list display file Inode number one per line",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -i -1",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "57": {
+        "x": [
+            {
+                "x_text": "list inode numbers of *.[-[EXTENSION]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -i *.[-[EXTENSION]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "58": {
+        "x": [
+            {
+                "x_text": "list all files in pictures",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls pictures",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "59": {
+        "x": [
+            {
+                "x_text": "ls *.[-[EXTENSION]-] sorted by file size",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lS *.[-[EXTENSION]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "60": {
+        "x": [
+            {
+                "x_text": "get the inode numbers of *.[-[EXTENSION]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -i *.[-[EXTENSION]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "61": {
+        "x": [
+            {
+                "x_text": "ls all files in pictures and home",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls pictures ~",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "62": {
+        "x": [
+            {
+                "x_text": "what files are in [-[DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "list the files that are in [-[DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls [-[DIRNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "63": {
+        "x": [
+            {
+                "x_text": "list the files in [-[DIRNAME]-] sorted by file size",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -lS [-[DIRNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "64": {
+        "x": [
+            {
+                "x_text": "ls -1 sorted by size",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -1 largest file first",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls sort by fsize one line per file",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -1 -S",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "65": {
+        "x": [
+            {
+                "x_text": "list with inodes number and long format",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -l -i",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "66": {
+        "x": [
+            {
+                "x_text": "print the contents of [-[FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print whats in [-[FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print what's in [-[FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print out [-[FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print the content of [-[FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "output the stuff in [-[FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "output the content of [-[FILENAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cat [-[FILENAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "67": {
+        "x": [
+            {
+                "x_text": "print the contents of [-[FILENAME]-] with line numbers",
+                "x_weight": 1
+            },
+            {
+                "x_text": "write out the contents of [-[FILENAME]-] with line numbers",
+                "x_weight": 1
+            },
+            {
+                "x_text": "cat [-[FILENAME]-] with line numbers",
+                "x_weight": 1
+            },
+            {
+                "x_text": "cat the contents of [-[FILENAME]-] with line numbers",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cat -n [-[FILENAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "68": {
+        "x": [
+            {
+                "x_text": "concatenate * together",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cat *",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "69": {
+        "x": [
+            {
+                "x_text": "concatenate all csv files here together",
+                "x_weight": 1
+            },
+            {
+                "x_text": "concat all comma separated files here",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cat *.csv",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "70": {
+        "x": [
+            {
+                "x_text": "concatenate [-[1=FILENAME]-] and [-[2=FILENAME]-] together",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cat [-[$1]-] [-[$2]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "71": {
+        "x": [
+            {
+                "x_text": "concatenate [-[1=FILENAME]-], [-[2=FILENAME]-], and [-[3=FILENAME]-] together",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cat [-[$1]-] [-[$2]-] [-[$3]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "72": {
+        "x": [
+            {
+                "x_text": "print the first 12 lines of [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "first dozen lines of [-[1=FILENAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "head -n 12 [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "73": {
+        "x": [
+            {
+                "x_text": "get first 8 lines of [-[1=FILENAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "head -n 8 [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "74": {
+        "x": [
+            {
+                "x_text": "what are the top 20 lines of [-[1=FILENAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "head -n 20 [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "75": {
+        "x": [
+            {
+                "x_text": "prnt first one hundred lines of [-[1=FILENAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "head -n 100 [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "76": {
+        "x": [
+            {
+                "x_text": "print first fifty bytes of [-[1=FILENAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "head -c 50 [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "77": {
+        "x": [
+            {
+                "x_text": "print first 13 bytes of [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print first 13 characters of [-[1=FILENAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "head -c 13 [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "78": {
+        "x": [
+            {
+                "x_text": "first five characters of [-[1=FILENAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "head -c 5 [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "79": {
+        "x": [
+            {
+                "x_text": "print the first ten characters of [-[1=FILENAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "head -c 10 [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "80": {
+        "x": [
+            {
+                "x_text": "copy [-[1=FILENAME]-] to [-[2=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make a copy of [-[1=FILENAME]-] named [-[2=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "create a copy of [-[1=FILENAME]-] as [-[2=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make a new version [-[1=FILENAME]-] named [-[2=FILENAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cp [-[$1]-] [-[$2]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "81": {
+        "x": [
+            {
+                "x_text": "copy [-[1=FILENAME]-] into [-[2=DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cp [-[$1]-] [-[$2]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "82": {
+        "x": [
+            {
+                "x_text": "make a copy of [-[1=FILENAME]-] in parent dir",
+                "x_weight": 1
+            },
+            {
+                "x_text": "copy [-[1=FILENAME]-] to parent directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "copy [-[1=FILENAME]-] up to parent dir",
+                "x_weight": 1
+            },
+            {
+                "x_text": "copy [-[1=FILENAME]-] up one directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cp [-[$1]-] ..",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "83": {
+        "x": [
+            {
+                "x_text": "copy [-[1=DIRNAME]-] to [-[2=DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "create a copy of everything in [-[1=DIRNAME]-] to [-[2=DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "recursive copy [-[1=DIRNAME]-] to [-[2=DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "cp [-[1=DIRNAME]-] [-[2=DIRNAME]-] but recursively",
+                "x_weight": 1
+            },
+            {
+                "x_text": "cp for directories [-[1=DIRNAME]-] [-[2=DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "cp a folder [-[1=DIRNAME]-] into [-[2=DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cp -r [-[$1]-] [-[$2]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "84": {
+        "x": [
+            {
+                "x_text": "copy everything in [-[1=ENGWORD]-]s dir to [-[$1]-]copy",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cp -r [-[$1]-]/* [-[$1]-]copy",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "85": {
+        "x": [
+            {
+                "x_text": "cp all files in src to current directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cp -r src/* .",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "86": {
+        "x": [
+            {
+                "x_text": "copy [-[1=DIRNAME]-] to [-[2=DIRNAME]-] displaying the name of every file copied",
+                "x_weight": 1
+            },
+            {
+                "x_text": "cp -r [-[1=DIRNAME]-] [-[2=DIRNAME]-] but print each file copied",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cp -vr [-[$1]-] [-[$2]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "87": {
+        "x": [
+            {
+                "x_text": "cp -r [-[1=DIRNAME]-] [-[2=DIRNAME]-] but prompt before every copy",
+                "x_weight": 1
+            },
+            {
+                "x_text": "copy recursive [-[1=DIRNAME]-] [-[2=DIRNAME]-] ask me first",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cp -ir [-[$1]-] [-[$2]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "88": {
+        "x": [
+            {
+                "x_text": "cp everything here to home dir",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cp -r * ~",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "89": {
+        "x": [
+            {
+                "x_text": "cp everything here to [-[1=DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cp -r * [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "90": {
+        "x": [
+            {
+                "x_text": "how many lines are in [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many lines are in [-[1=FILENAME]-]?",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many lines [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many lines \"[-[1=FILENAME]-]\"",
+                "x_weight": 1
+            },
+            {
+                "x_text": "count the number of lines in [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "Counts lines of [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "count the number of lines [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "get the line count of [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many lines in [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "line count of [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "get line count of [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "[-[1=FILENAME]-] line count",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "wc -l [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "91": {
+        "x": [
+            {
+                "x_text": "how many words are in [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "get the word count of [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "word count [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "[-[1=FILENAME]-] word count",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "wc -w [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "92": {
+        "x": [
+            {
+                "x_text": "how many bytes are in [-[1=FILENAME]-]?",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "wc -c [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "93": {
+        "x": [
+            {
+                "x_text": "how many characters are in [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "character count of [-[1=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "[-[1=FILENAME]-] character count",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "wc -m [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "94": {
+        "x": [
+            {
+                "x_text": "count the number of files and directories in current directory without recursion",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many files or dirs are here?",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many files or directories are here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many things are here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls count number of results",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print each file or directory here but only one per line | wc -l",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls and count the number of lines of the output",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -1 | count the number of lines",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls -1 | count num of outputs",
+                "x_weight": 1
+            },
+            {
+                "x_text": "ls but only one per line | wc -l",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "ls -1 | wc -l",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "ls | wc -l",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "95": {
+        "x": [
+            {
+                "x_text": "how many letters are in \"foolumboo\"",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "echo foolumboo | wc -c",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "96": {
+        "x": [
+            {
+                "x_text": "how many letters are in \"[-[1=ENGWORD]-]\"",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "echo [-[$1]-] | wc -c",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "97": {
+        "x": [
+            {
+                "x_text": "how many letters are in \"[-[1=ENGWORD]-][-[2=ENGWORD]-]\"",
+                "x_weight": 1
+            },
+            {
+                "x_text": "Get letter count of \"[-[1=ENGWORD]-][-[2=ENGWORD]-]\"",
+                "x_weight": 1
+            },
+            {
+                "x_text": "how many letters are in [-[1=ENGWORD]-][-[2=ENGWORD]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "count number of letters in \"[-[1=ENGWORD]-][-[2=ENGWORD]-]\"",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "echo [-[$1]-][-[$2]-] | wc -c",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "98": {
+        "x": [
+            {
+                "x_text": "go home",
+                "x_weight": 1
+            },
+            {
+                "x_text": "cd to home directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "cd to my home dir",
+                "x_weight": 1
+            },
+            {
+                "x_text": "change directory to home directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "cd to my home directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cd ~",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "99": {
+        "x": [
+            {
+                "x_text": "go up one directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "cd to parent dir",
+                "x_weight": 1
+            },
+            {
+                "x_text": "go up to parent directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "cd up one directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cd ..",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "100": {
+        "x": [
+            {
+                "x_text": "cd to where I was before",
+                "x_weight": 1
+            },
+            {
+                "x_text": "go back to where I was",
+                "x_weight": 1
+            },
+            {
+                "x_text": "go back to directory was in before last cd",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cd -",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "101": {
+        "x": [
+            {
+                "x_text": "go to my tmp directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "change directory to my tmp dir",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cd /tmp",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "102": {
+        "x": [
+            {
+                "x_text": "go up two directories",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cd ../..",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "103": {
+        "x": [
+            {
+                "x_text": "cd up three directories",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cd ../../..",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "104": {
+        "x": [
+            {
+                "x_text": "go into pictures dir",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cd pictures",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "105": {
+        "x": [
+            {
+                "x_text": "change directory to [-[DIRNAME]-] dir",
+                "x_weight": 1
+            },
+            {
+                "x_text": "go to [-[DIRNAME]-] directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "cd [-[DIRNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "106": {
+        "x": [
+            {
+                "x_text": "make a directory named [-[ENGWORD]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make a dir named \"[-[ENGWORD]-]\"",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make a \"[-[ENGWORD]-]\" directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make an empty \"[-[ENGWORD]-]\" directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make an empty directory named \"[-[ENGWORD]-]\"",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mkdir [-[ENGWORD]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "107": {
+        "x": [
+            {
+                "x_text": "make a directory named [-[DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make an empty directory named \"[-[DIRNAME]-]\"",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mkdir [-[DIRNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "108": {
+        "x": [
+            {
+                "x_text": "make a hidden directory named cache",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mkdir .cache",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "109": {
+        "x": [
+            {
+                "x_text": "make a hidden directory named [-[ENGWORD]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mkdir .[-[ENGWORD]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "110": {
+        "x": [
+            {
+                "x_text": "make a directory named [-[ENGWORD]-] in ~",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mkdir ~/[-[ENGWORD]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "111": {
+        "x": [
+            {
+                "x_text": "make a directory named \"[-[1=ENGWORD]-]\" inside the \"[-[2=ENGWORD]-]\" dir",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mkdir [-[$1]-]/[-[$2]-]",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "mkdir -p [-[$1]-]/[-[$2]-]",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "112": {
+        "x": [
+            {
+                "x_text": "create new directories named [-[1=ENGWORD]-]/[-[2=ENGWORD]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make a directory named [-[1=ENGWORD]-]/[-[2=ENGWORD]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mkdir -p [-[$1]-]/[-[$2]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "113": {
+        "x": [
+            {
+                "x_text": "make a directory named \"[-[ENGWORD]-]\" printing each directory created",
+                "x_weight": 1
+            },
+            {
+                "x_text": "verbose mkdir [-[ENGWORD]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mkdir -v [-[ENGWORD]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "114": {
+        "x": [
+            {
+                "x_text": "print an empty new line",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print an empty line",
+                "x_weight": 1
+            },
+            {
+                "x_text": "output empty line",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "echo",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "115": {
+        "x": [
+            {
+                "x_text": "print out \"hello world\"",
+                "x_weight": 1
+            },
+            {
+                "x_text": "print out hello world",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "echo hello world",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "echo \"hello world\"",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "116": {
+        "x": [
+            {
+                "x_text": "print out \"[-[1=ENGWORD]-] [-[2=ENGWORD]-] [-[3=ENGWORD]-]\"",
+                "x_weight": 1
+            },
+            {
+                "x_text": "write to stdout \"[-[1=ENGWORD]-] [-[2=ENGWORD]-] [-[3=ENGWORD]-]\"",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "echo \"[-[$1]-] [-[$2]-] [-[$3]-]\"",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "echo [-[$1]-] [-[$2]-] [-[$3]-]",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "117": {
+        "x": [
+            {
+                "x_text": "say hello",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "echo hello",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "118": {
+        "x": [
+            {
+                "x_text": "print my home directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "where is my home directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "echo ~",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "119": {
+        "x": [
+            {
+                "x_text": "move [-[1=FILENAME]-] to [-[2=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "rename [-[1=FILENAME]-] to be [-[2=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "change the name of [-[1=FILENAME]-] to be [-[2=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "set the name of [-[1=FILENAME]-] to [-[2=FILENAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv [-[$1]-] [-[$2]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "120": {
+        "x": [
+            {
+                "x_text": "move [-[1=DIRNAME]-] to [-[2=DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "rename [-[1=DIRNAME]-] to be [-[2=DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "set the name of [-[1=DIRNAME]-] to [-[2=DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv [-[$1]-] [-[$2]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "121": {
+        "x": [
+            {
+                "x_text": "move [-[1=FILENAME]-] to [-[2=DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "move [-[1=FILENAME]-] into [-[2=DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv [-[$1]-] [-[$2]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "122": {
+        "x": [
+            {
+                "x_text": "move [-[1=FILENAME]-] and [-[2=FILENAME]-] to [-[DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "mv both [-[1=FILENAME]-] and [-[2=FILENAME]-] to [-[DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "move [-[1=FILENAME]-] [-[2=FILENAME]-] into [-[DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv [-[$1]-] [-[$2]-] [-[DIRNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "123": {
+        "x": [
+            {
+                "x_text": "move [-[1=FILENAME]-] to parent directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "move [-[1=FILENAME]-] up one dir",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv [-[$1]-] ..",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "124": {
+        "x": [
+            {
+                "x_text": "move all text files into [-[DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "mv al txt files into [-[DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv *.txt [-[DIRNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "125": {
+        "x": [
+            {
+                "x_text": "move all js files in parent directory into [-[DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv ../*.js [-[DIRNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "126": {
+        "x": [
+            {
+                "x_text": "move all png and jpg files into [-[DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv *.png *.jpg [-[DIRNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "127": {
+        "x": [
+            {
+                "x_text": "move all python files here into [-[DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv *.py [-[DIRNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "128": {
+        "x": [
+            {
+                "x_text": "change the extension of [-[ENGWORD]-].txt to be csv",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv [-[ENGWORD]-].txt [-[ENGWORD]-].csv",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "129": {
+        "x": [
+            {
+                "x_text": "move [-[FILENAME]-] up two directories",
+                "x_weight": 1
+            },
+            {
+                "x_text": "move [-[FILENAME]-] up two dirs",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv [-[FILENAME]-] ../..",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "130": {
+        "x": [
+            {
+                "x_text": "make [-[ENGWORD]-].[-[EXTENSION]-] a hidden file",
+                "x_weight": 1
+            },
+            {
+                "x_text": "change [-[ENGWORD]-].[-[EXTENSION]-] to be a hidden file",
+                "x_weight": 1
+            },
+            {
+                "x_text": "convert [-[ENGWORD]-].[-[EXTENSION]-] to a dot file",
+                "x_weight": 1
+            },
+            {
+                "x_text": "change [-[ENGWORD]-].[-[EXTENSION]-] to a dot file",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "mv [-[ENGWORD]-].[-[EXTENSION]-] .[-[ENGWORD]-].[-[EXTENSION]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "131": {
+        "x": [
+            {
+                "x_text": "make a file named [-[FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "create a file named [-[FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "create an empty file named [-[FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "add empty file named [-[FILENAME]-] here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "set the last mod time and access time of [-[FILENAME]-] to now",
+                "x_weight": 1
+            },
+            {
+                "x_text": "set the last accessed and modified time of [-[FILENAME]-] to now",
+                "x_weight": 1
+            },
+            {
+                "x_text": "reset the modified time and access time of [-[FILENAME]-] to now",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "touch [-[FILENAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "132": {
+        "x": [
+            {
+                "x_text": "make a blank gitignore",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make a gitignore",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make a .gitignore file",
+                "x_weight": 1
+            },
+            {
+                "x_text": "create an empty gitignore",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "touch .gitignore",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "133": {
+        "x": [
+            {
+                "x_text": "make a file named __init__.py",
+                "x_weight": 1
+            },
+            {
+                "x_text": "create a __init__.py",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make this a python module",
+                "x_weight": 1
+            },
+            {
+                "x_text": "setup this dir as a python module",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "touch __init__.py",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "134": {
+        "x": [
+            {
+                "x_text": "create a file name [-[FILENAME]-] in ..",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make an empty file name [-[FILENAME]-] in my parent directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make a file called [-[FILENAME]-] in parent dir",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "touch ../[-[FILENAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "135": {
+        "x": [
+            {
+                "x_text": "set the last modified time of [-[1=FILENAME]-] to be the same as [-[2=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "touch [-[1=FILENAME]-] using last modified and access times of [-[2=FILENAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make [-[1=FILENAME]-] and [-[2=FILENAME]-] have the same timestamp",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "touch -r [-[$2]-] [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "136": {
+        "x": [
+            {
+                "x_text": "set the modified time of [-[1=FILENAME]-] to now",
+                "x_weight": 1
+            },
+            {
+                "x_text": "change the modified time of [-[1=FILENAME]-] to now",
+                "x_weight": 1
+            },
+            {
+                "x_text": "reset the last mod time of [-[1=FILENAME]-] to now.",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "touch -m [-[$1]-]",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "touch [-[$1]-]",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "137": {
+        "x": [
+            {
+                "x_text": "touch [-[1=FILENAME]-] but only update the modified time, not the access time",
+                "x_weight": 1
+            },
+            {
+                "x_text": "touch [-[1=FILENAME]-] but don't change access time.",
+                "x_weight": 1
+            },
+            {
+                "x_text": "touch [-[1=FILENAME]-] but only change modified time",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "touch -m [-[$1]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "138": {
+        "x": [
+            {
+                "x_text": "sleep for five seconds",
+                "x_weight": 1
+            },
+            {
+                "x_text": "do nothing for 5 seconds",
+                "x_weight": 1
+            },
+            {
+                "x_text": "wait for 5 seconds",
+                "x_weight": 1
+            },
+            {
+                "x_text": "pause for five sec",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "sleep 5",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "139": {
+        "x": [
+            {
+                "x_text": "split up [-[FILENAME]-] into chunks of 10 lines",
+                "x_weight": 1
+            },
+            {
+                "x_text": "split [-[FILENAME]-] into different files with 10 lines each",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "split -l 10 [-[FILENAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "140": {
+        "x": [
+            {
+                "x_text": "split [-[FILENAME]-] into files with 100 lines with prefix \"splitfile\"",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "split -l 100 [-[FILENAME]-] splitfile",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "141": {
+        "x": [
+            {
+                "x_text": "Compress all the files here into a tarball named [-[ENGWORD]-].tar.gz",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make a tar.gz of everything here into [-[ENGWORD]-].tar.gz",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make a tarball of everything here into [-[ENGWORD]-].tar.gz",
+                "x_weight": 1
+            },
+            {
+                "x_text": "tarball all files here into [-[ENGWORD]-].tar.gz",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -c -z -f [-[ENGWORD]-].tar.gz *",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "142": {
+        "x": [
+            {
+                "x_text": "Compress [-[DIRNAME]-] into a tarball named [-[ENGWORD]-].tar.gz",
+                "x_weight": 1
+            },
+            {
+                "x_text": "move [-[DIRNAME]-] into a tarball named [-[ENGWORD]-].tar.gz",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -c -z -f [-[ENGWORD]-].tar.gz [-[DIRNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "143": {
+        "x": [
+            {
+                "x_text": "compress all my files here into a archive",
+                "x_weight": 1
+            },
+            {
+                "x_text": "compress all my files here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "tar all my files here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "move all my files here into a tarball",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -c -z -f data.tar.gz *",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "144": {
+        "x": [
+            {
+                "x_text": "make a tarball for [-[DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make a compressed archive for [-[DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "move [-[DIRNAME]-] to a tarball",
+                "x_weight": 1
+            },
+            {
+                "x_text": "make [-[DIRNAME]-] a tar file",
+                "x_weight": 1
+            },
+            {
+                "x_text": "move [-[DIRNAME]-] to a tarfile",
+                "x_weight": 1
+            },
+            {
+                "x_text": "compress [-[DIRNAME]-] into a tarfile",
+                "x_weight": 1
+            },
+            {
+                "x_text": "compress [-[DIRNAME]-] into a tarball",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -c -z -f [-[DIRNAME]-].tar.gz [-[DIRNAME]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "145": {
+        "x": [
+            {
+                "x_text": "extract [-[ENGWORD]-].tar.gz into current directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "extract [-[ENGWORD]-].tar.gz here",
+                "x_weight": 1
+            },
+            {
+                "x_text": "extract [-[ENGWORD]-].tar.gz",
+                "x_weight": 1
+            },
+            {
+                "x_text": "unzip [-[ENGWORD]-].tar.gz",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -x -z -f [-[ENGWORD]-].tar.gz",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "tar -x -f [-[ENGWORD]-].tar.gz",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "146": {
+        "x": [
+            {
+                "x_text": "extract [-[ENGWORD]-].tar into current directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "extract [-[ENGWORD]-].tar",
+                "x_weight": 1
+            },
+            {
+                "x_text": "untar [-[ENGWORD]-].tar",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -x -f [-[ENGWORD]-].tar",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "tar -x -z -f [-[ENGWORD]-].tar",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "147": {
+        "x": [
+            {
+                "x_text": "extract [-[1=ENGWORD]-][-[2=ENGWORD]-].tar into current directory",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -x -f [-[$1]-][-[$2]-].tar",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "tar -x -z -f [-[$1]-][-[$2]-].tar",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "148": {
+        "x": [
+            {
+                "x_text": "Compress all [-[EXTENSION]-] files into [-[ENGWORD]-].tar.gz",
+                "x_weight": 1
+            },
+            {
+                "x_text": "move all [-[EXTENSION]-] files into [-[ENGWORD]-].tar.gz",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -c -z -f [-[ENGWORD]-].tar.gz *.[-[EXTENSION]-]",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "149": {
+        "x": [
+            {
+                "x_text": "extract [-[1=ENGWORD]-]/[-[2=ENGWORD]-].tar.gz into current directory",
+                "x_weight": 1
+            },
+            {
+                "x_text": "extract [-[1=ENGWORD]-]/[-[2=ENGWORD]-].tar.gz",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -x -z -f [-[$1]-]/[-[$2]-].tar.gz",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "tar -x -f [-[$1]-]/[-[$2]-].tar.gz",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "150": {
+        "x": [
+            {
+                "x_text": "extract [-[ENGWORD]-].tar.gz into [-[DIRNAME]-]",
+                "x_weight": 1
+            },
+            {
+                "x_text": "uncompress [-[ENGWORD]-].tar.gz into [-[DIRNAME]-]",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -x -z -f [-[ENGWORD]-].tar.gz -C [-[DIRNAME]-]",
+                "y_preference": 1.0
+            },
+            {
+                "y_text": "tar -x -f [-[ENGWORD]-].tar.gz -C [-[DIRNAME]-]",
+                "y_preference": 0.5
+            }
+        ]
+    },
+    "151": {
+        "x": [
+            {
+                "x_text": "get the contents of ./[-[ENGWORD]-].tar without extracting",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -t -v -f ./[-[ENGWORD]-].tar",
+                "y_preference": 1.0
+            }
+        ]
+    },
+    "152": {
+        "x": [
+            {
+                "x_text": "show what's in ./[-[ENGWORD]-].tar.gz without extracting",
+                "x_weight": 1
+            },
+            {
+                "x_text": "show the contents of [-[ENGWORD]-].tar.gz",
+                "x_weight": 1
+            }
+        ],
+        "y": [
+            {
+                "y_text": "tar -t -v -f ./[-[ENGWORD]-].tar.gz",
+                "y_preference": 1.0
+            }
+        ]
+    }
+}
